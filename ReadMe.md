@@ -3,7 +3,7 @@
 1.	Main.Java
   a.	Launches the program and builds the JavaFX window.
   b.	Creates a Scene that holds the calculator interface (ArabicCalculator).
-  c.	Sets the window title (“Cartis Burton: Arabic Calculator”) and size (400×350).
+  c.	Sets the window title (“ScienTiz: Arabic Calculator”) and size (400×350).
   d.	Calls launch(args) to start the JavaFX application.
 
 2.	ArabicCaclulator.java
