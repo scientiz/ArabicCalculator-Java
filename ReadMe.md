@@ -5,6 +5,7 @@
   b.	Creates a Scene that holds the calculator interface (ArabicCalculator).
   c.	Sets the window title (“Cartis Burton: Arabic Calculator”) and size (400×350).
   d.	Calls launch(args) to start the JavaFX application.
+
 2.	ArabicCaclulator.java
   a.	Extends GridPane to create the calculator layout.
   b.	Contains all visual elements:
@@ -16,15 +17,18 @@
   e.	Four operator buttons (+, −, ×, ÷)
   f.	Equals (=) button
   g.	Clear (CE) button
+
 3.	Key layout logic:
   a.	HBox is used for the operator row.
   b.	GridPane is used for the 3×3 Arabic symbol layout.
   c.	VBox stacks the two sections together for clean alignment.
   d.	Custom colors: orange for operators, red for clear, green for equals.
+
 4.	Extra features:
   a.	Groups Arabic symbols visually every 3 characters (formatGroupedArabic()).
   b.	Updates integer labels in real time as buttons are pressed.
   c.	CE (Clear Entry) now resets all fields and labels.
+
 5.	Arabic.java
   a.	Handles the logic for converting Arabic numerals to integers and back.
   b.	Uses HashMaps to store and retrieve symbol values.
