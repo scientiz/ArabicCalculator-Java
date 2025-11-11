@@ -1,5 +1,5 @@
 // Arabic.java
-// Author: Cartis Burton, COSC 211 F25
+// Author: ScienTiz, COSC 211 F25
 // Custom Arabic numeral class that converts between symbols and integers.
 
 package arabiccalculator;

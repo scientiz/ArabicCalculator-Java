@@ -1,6 +1,6 @@
 /*
  * Program: Arabic Calculator
- * Author: Cartis Burton, COSC 211, F25
+ * Author: ScienTiz, COSC 211, F25
  *
  * Main JavaFX class that launches my Arabic Calculator.
  * It creates a window, puts the ArabicCalculator pane inside it,
@@ -25,7 +25,7 @@ public class Main extends Application {
         // 400x350 seems to be the sweet spot 7 NOV 2025
         Scene scene = new Scene(calcPane, 400, 350);
 
-        primaryStage.setTitle("Cartis Burton: Arabic Calculator");
+        primaryStage.setTitle("ScienTiz: Arabic Calculator");
         primaryStage.setScene(scene);
         primaryStage.show();
     }
